@@ -1,18 +1,18 @@
---kullanıcı adı için - USERS TABLOSUNDAN
--- Ad soyad için - USERS TABLOSUNDAN
--- il için - CITIES TABLOSUNDAN
--- İlçe için - TOWNS TABLOSUNDAN
--- SEMT için - DISTRICTS TABLOSUNDAN
--- Açık Adres için - ADDRESS TABLOSUNDAN 
--- SiparişID İçin - ORDERS TABLOSUNDAN
---Tarih için - ORDERS TABLOSUNDAN
---Toplam Tutar için - ORDERSTABLOSUNDAN
--- Ödeme Tarihi için- PAYMENTS TABLOSUNDAN
---Banka Onay Kodu için - PAYMENTS TABLOSUNDAN
--- Fatura Tarihi İçin - INVOICES TABLOSUNDAN
--- Kargo Fiş No için- INVOICES TABLOSUNDAN
+-- kullanici adi iÃ§in - USERS TABLOSUNDAN
+-- Ad soyad iÃ§in - USERS TABLOSUNDAN
+-- il iÃ§in - CITIES TABLOSUNDAN
+-- ilÃ§e iÃ§in - TOWNS TABLOSUNDAN
+-- SEMT iÃ§in - DISTRICTS TABLOSUNDAN
+-- AÃ§ik Adres iÃ§in - ADDRESS TABLOSUNDAN 
+-- SipariÅŸID ÃÃ§in - ORDERS TABLOSUNDAN
+-- Tarih iÃ§in - ORDERS TABLOSUNDAN
+-- Toplam Tutar iÃ§in - ORDERSTABLOSUNDAN
+-- Ã–deme Tarihi iÃ§in- PAYMENTS TABLOSUNDAN
+-- Banka Onay Kodu iÃ§in - PAYMENTS TABLOSUNDAN
+-- Fatura Tarihi ÃÃ§in - INVOICES TABLOSUNDAN
+-- Kargo FiÃ¾ No iÃ§in- INVOICES TABLOSUNDAN
 -- REFERANS TABLOMUZ 'ORDERS' TABLOSU OLACAK.
---SİPARİŞ VEREN KİŞİLERİN BİLGİSİNİ ÇEKECEĞİZ.
+
 
 SELECT 
 U.USERNAME_ AS KULLANICIADI,
@@ -38,6 +38,4 @@ INNER JOIN INVOICES I ON I.ORDERID=O.ID
 
 WHERE U.NAMESURNAME= 3515
 
---where şartı yazan yere sipariş veren kişiler arasında
--- isim,soyisim bilgisini girdiğinizde yazılan şarta göre
--- sipariş veren kişinin sipariş bilgileri ve adresini gösterir.
+
